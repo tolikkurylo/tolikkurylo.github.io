@@ -112,6 +112,9 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
+.right-content-text{
+	margin-top: 20px;
+}
 
 .value-name {
     margin-top: 8px;
