@@ -1,5 +1,40 @@
-{"books" : [{"category" : "Математика",	"name" : "Котосови","imgsrc" : "https://domigr.com.ua/image/cache/data/Banda_Umnikov/Kotosovy/kotosovy-0-501x501.jpg",	"availability" : "soon","regularPrice" : "none",
-"discount" : 0,"new" : 1,"hit" : 0},{"category" : "Математика",	"name" : "Котосови","imgsrc" : "https://domigr.com.ua/image/cache/data/Banda_Umnikov/Kotosovy/kotosovy-0-501x501.jpg",	"availability" : "soon","regularPrice" : "none",
-"discount" : 0,"new" : 1,"hit" : 0},{"category" : "Математика",	"name" : "Котосови","imgsrc" : "https://domigr.com.ua/image/cache/data/Banda_Umnikov/Kotosovy/kotosovy-0-501x501.jpg",	"availability" : "soon","regularPrice" : "none",
-"discount" : 0,"new" : 1,"hit" : 0},{"category" : "Математика",	"name" : "Котосови","imgsrc" : "https://domigr.com.ua/image/cache/data/Banda_Umnikov/Kotosovy/kotosovy-0-501x501.jpg",	"availability" : "soon","regularPrice" : "none",
-"discount" : 0,"new" : 1,"hit" : 0}]}
+{"books" : [{
+				"category" : "Математика",
+				"name" : "Котосови",
+				"imgsrc" : "https://domigr.com.ua/image/cache/data/Banda_Umnikov/Kotosovy/kotosovy-0-501x501.jpg",
+				"availability" : "soon",
+				"regularPrice" : "none",
+				"discount" : 0,
+				"new" : 1,
+				"hit" : 0
+			},
+			{
+				"category" : "Подарунок",
+				"name" : "Набір Розумника",
+				"imgsrc" : "https://igrarium.com.ua/image/cache/catalog/data/banda-umnikov/nabor-vsjo-i-srazu-banda-umnikov/igrarium-nabor-vsjo-i-srazu-banda-umnikov-0-1000x1000.jpg",
+				"availability" : 1,
+				"regularPrice" : "210 грн",
+				"discount" : "190 грн",
+				"new" : 0,
+				"hit" : 0
+			},
+			{
+				"category" : "Усний рахунок",
+				"name" : "Турборахунок",
+				"imgsrc" : "https://iqgra.com.ua/image/cache/catalog/nastolnye-igry/obuchayushie/banda-umnikov-turbokomplekt-1-600x600.jpg",
+				"availability" : 1,
+				"regularPrice" : "320 грн",
+				"discount" : 0,
+				"new" : 0,
+				"hit" : 1
+			},
+			{
+				"category" : "Букви та читання",
+				"name" : "Котосови",
+				"imgsrc" : "https://childdevelop.com.ua/doc/images/news/32/3219/cross-animals_ukr_ua_m.png",
+				"availability" : 1
+				"regularPrice" : "450 грн",
+				"discount" : 0,
+				"new" : 0,
+				"hit" : 1
+			}]}
