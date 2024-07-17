@@ -2,39 +2,43 @@
 				"category" : "Математика",
 				"name" : "Котосови",
 				"imgsrc" : "https://domigr.com.ua/image/cache/data/Banda_Umnikov/Kotosovy/kotosovy-0-501x501.jpg",
+				"alt" : "котосови",
 				"availability" : "soon",
 				"regularPrice" : "none",
 				"discount" : 0,
-				"new" : 1,
-				"hit" : 0
+				"new" : true,
+				"hit" : false
 			},
 			{
 				"category" : "Подарунок",
 				"name" : "Набір Розумника",
 				"imgsrc" : "https://igrarium.com.ua/image/cache/catalog/data/banda-umnikov/nabor-vsjo-i-srazu-banda-umnikov/igrarium-nabor-vsjo-i-srazu-banda-umnikov-0-1000x1000.jpg",
+				"alt" : "набір розумник",
 				"availability" : 1,
-				"regularPrice" : "210 грн",
-				"discount" : "190 грн",
-				"new" : 0,
-				"hit" : 0
+				"regularPrice" : "210",
+				"discount" : "190",
+				"new" : false,
+				"hit" : false
 			},
 			{
 				"category" : "Усний рахунок",
 				"name" : "Турборахунок",
 				"imgsrc" : "https://iqgra.com.ua/image/cache/catalog/nastolnye-igry/obuchayushie/banda-umnikov-turbokomplekt-1-600x600.jpg",
+				"alt" : "турборахунок",
 				"availability" : 1,
-				"regularPrice" : "320 грн",
+				"regularPrice" : "320",
 				"discount" : 0,
-				"new" : 0,
-				"hit" : 1
+				"new" : false,
+				"hit" : true
 			},
 			{
 				"category" : "Букви та читання",
 				"name" : "Котосови",
 				"imgsrc" : "https://childdevelop.com.ua/doc/images/news/32/3219/cross-animals_ukr_ua_m.png",
+				"alt" : "котосови",
 				"availability" : 1,
-				"regularPrice" : "450 грн",
+				"regularPrice" : "450",
 				"discount" : 0,
-				"new" : 0,
-				"hit" : 1
+				"new" : false,
+				"hit" : true
 			}]}
