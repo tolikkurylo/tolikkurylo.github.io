@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			card.append(catalogContent)
 			const img = document.createElement('img')
 			img.src = `${arr[i].imgsrc}`
+			img.alt = `${arr[i].alt}`
 			catalogContent.append(img)
 			card.append(contentDescription)
 			const descr = document.createElement('a')
@@ -65,26 +66,20 @@ document.addEventListener('DOMContentLoaded', () => {
 			descr.textContent = `${arr[i].name}`
 			contentDescription.append(descr)
 			card.append(price)
-			if(arr[i].availability === 1){
-				if(arr[i].discount != 0){
-					regPrice.textContent = `${arr[i].discount}`
-					price.append(regPrice)
-				}
-				discPrice.textContent = `${arr[i].regularPrice}`
-				price.append(discPrice)
-			} else if(arr[i].availability === 0){
-				price.append(regPrice)
-			} else {
-				price.append(regPrice)
-			}
-
-			if(arr[i].availability === 1){
+			if(arr[i].availability){
 				const addBtn = document.createElement('a')
 				addBtn.href = '#'
 				addBtn.textContent = 'У корзину'
 				card.append(buyBtn)
 				buyBtn.append(addBtn)
-			} else if (arr[i].availability === 0){
+				if(arr[i].discount){
+					regPrice.textContent = `${arr[i].discount}`
+					price.append(regPrice)
+				}
+				discPrice.textContent = `${arr[i].regularPrice}`
+				price.append(discPrice)
+			} else if(arr[i].availability === false) {
+				price.append(regPrice)
 				const addBtn = document.createElement('a')
 				addBtn.href = '#'
 				addBtn.textContent = 'У корзину'
@@ -99,12 +94,13 @@ document.addEventListener('DOMContentLoaded', () => {
 				soonBtn.append(addBtn)
 			}
 
-			if(arr[i].new === 1){
+
+			if(arr[i].new){
 				const descrStk = document.createElement('p')
 				descrStk.textContent = 'новинка'
 				stickerNew.append(descrStk)
 				card.append(stickerNew)
-			} else if(arr[i].hit === 1){
+			} else if(arr[i].hit){
 				const descrStk = document.createElement('p')
 				descrStk.textContent = 'хіт продаж'
 				stickerTop.append(descrStk)
