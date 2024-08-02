@@ -25,20 +25,20 @@
         "content" : "Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed. Vestibulum sit amet tortor sit amet libero.",
         "rating" : "3",
         "profileImg" : "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "profile Name" : "Jane Doe",
+        "profileName" : "Jane Doe",
         "profileStatus" : "Chief Digital Officer"
       },
       {
         "content" : "Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed. Vestibulum sit amet tortor sit amet libero.",
         "rating" : "3",
         "profileImg" : "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "profile Name" : "Jane Doe",
+        "profileName" : "Jane Doe",
         "profileStatus" : "Chief Digital Officer"
       },{
         "content" : "Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed. Vestibulum sit amet tortor sit amet libero.",
         "rating" : "3",
         "profileImg" : "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "profile Name" : "Jane Doe",
+        "profileName" : "Jane Doe",
         "profileStatus" : "Chief Digital Officer"
       }
       ]
